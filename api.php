@@ -2746,7 +2746,7 @@ $api = new PHP_CRUD_API(array(
 	'hostname'=>'localhost',
 	'username'=>'root',
 	'password'=>'root',
-	'database'=>'api_db',
+	'database'=>'engine_db',
 	'charset'=>'utf8mb4'
 ));
 $api->executeCommand();
