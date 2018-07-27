@@ -10,13 +10,13 @@ include_once '../models/product.php';
 // instantiate database and product object
 $database = new Database();
 $db = $database->getConnection();
- 
+echo "hola";
 // initialize object
 $product = new Product($db);
  
 // query products
 $stmt = $product->read();
-$num = $stmt->rowCount();
+$num = $stmt->rowCount();  
  
 // check if more than 0 record found
 if($num>0){
